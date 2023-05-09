@@ -28,6 +28,7 @@ h2 {
     background-color: rgba($color: #000, $alpha: 0.7);
     width: 900px;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 16px;
 
     &-row {
