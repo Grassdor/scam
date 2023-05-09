@@ -91,22 +91,33 @@ h2 {
 }
 
 .card {
+  display: flex;
+  gap: 32px;
   padding: 32px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 364px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 900px;
   backdrop-filter: blur(10px);
   border-radius: 16px;
 }
 .card-row {
   display: flex;
+  flex-direction: column;
+  gap: 32px;
   margin: 64px 0 0 0;
   justify-content: center;
+  align-items: center;
 }
 .card h1 {
   font-weight: 500;
   font-size: 24px;
-  margin: 20px 0 0 0;
+  color: #fff;
+  text-align: start;
+}
+.card p {
+  color: #fff;
+  text-align: start;
+  margin: 32px 0 0 0;
 }
 .card img {
   max-width: 300px;
